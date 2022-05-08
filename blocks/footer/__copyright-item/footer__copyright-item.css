@@ -1,0 +1,10 @@
+.footer__copyright-item {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+color: #FFFFFF;
+margin: 0;
+}

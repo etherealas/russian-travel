@@ -1,0 +1,10 @@
+.cover__link{
+	background-color: rgba(42, 44, 47, 0);
+	z-index: 2;
+	display: block;
+	text-decoration: none;
+	min-height: 740px;
+}
+.cover__link:hover{
+	background-color: rgba(42, 44, 47, 0.6);
+}

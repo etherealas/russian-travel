@@ -1,0 +1,8 @@
+.cover{
+	max-width: 1184px;
+	min-height: 740px;
+	background: url(../../images/mask_group.jpg) center center / cover no-repeat;
+	z-index: 1;
+	display: block;
+	margin: 130px auto 0 auto;
+}
