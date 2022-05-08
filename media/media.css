@@ -143,14 +143,16 @@ line-height: 20px;
    min-height: 200px;
 }
 .cover__title {
+	max-width: 288px;
 	font-size: 32px;
-    line-height: 35px;
-	 padding-top: 32px;
+   line-height: 35px;
+	padding-top: 32px;
 }
 .cover__subtitle {
+	max-width: 288px;
 	font-size: 14px;
-    line-height: 16px;
-	 margin: 16px auto 0px auto;
+   line-height: 16px;
+	margin: 16px auto 0px auto;
 }
 .footer {
 	margin: 0;
