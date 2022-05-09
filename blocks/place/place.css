@@ -8,3 +8,24 @@
 .place:first-child {
 	padding: 0;
 }
+@media screen and (max-width: 1023px) {
+	.place {
+		grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+		padding-top: 72px;
+		grid-column-gap: 28px;
+	}
+}
+@media screen and (max-width:  767px) {
+	.place {
+		grid: 600px auto / 1fr;
+		grid-template-rows: 1fr;
+		padding-left: 0;
+		padding-top: 50px;
+		grid-row-gap: 32px;
+	}
+}
+@media screen and (max-width:  319px) {
+.place {
+	flex-direction: column;
+}
+}

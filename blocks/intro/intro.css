@@ -3,3 +3,16 @@
 	margin: 92px 0px 0px 100px;
 	padding: 0 48px;
 }
+@media screen and (max-width: 1279px){
+	.intro {
+		margin: 0;
+	}}
+@media screen and (max-width: 1023px) {
+	.intro {
+		padding: 0 24px;
+	}}
+@media screen and (max-width: 767px){
+	.intro {
+		padding: 0 16px;
+	}
+}

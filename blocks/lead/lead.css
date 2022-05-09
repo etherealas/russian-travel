@@ -3,3 +3,18 @@
 	margin: 56px auto;
 	padding: 0 48px;
 }
+@media screen and (max-width: 1279px){
+	.lead {
+		max-width: 100%;
+	}	
+}
+@media screen and (max-width: 1023px) {
+	.lead {
+  	padding: 0;
+	}
+}
+@media screen and (max-width: 767px){
+	.lead {
+		padding: 0;
+	}
+}
